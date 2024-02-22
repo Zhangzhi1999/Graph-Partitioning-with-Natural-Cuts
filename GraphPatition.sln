@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Preprocess", "Preprocess\Preprocess.vcxproj", "{046878DE-CC8A-4983-B40B-CCB66F509672}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Postprocess", "Postprocess\Postprocess.vcxproj", "{B5165938-EA9D-443C-ABAE-4F462B408E0E}"
@@ -8,6 +10,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assemble", "Assemble\Assemble.vcxproj", "{4F3DC158-A4D7-47D2-84E1-AE88AAC473D8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Filter", "Filter\Filter.vcxproj", "{4F141325-AF4D-45A5-968D-CDA82B171E06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cal_maxd", "cal_maxd\cal_maxd.vcxproj", "{24F3401F-F1D6-47B4-83CD-D55A0A966866}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dataset-merge", "dataset-merge\dataset-merge.vcxproj", "{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dataset-Transfer", "dataset-Transfer\dataset-Transfer.vcxproj", "{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +54,30 @@ Global
 		{4F141325-AF4D-45A5-968D-CDA82B171E06}.Release|Win32.Build.0 = Release|Win32
 		{4F141325-AF4D-45A5-968D-CDA82B171E06}.Release|x64.ActiveCfg = Release|x64
 		{4F141325-AF4D-45A5-968D-CDA82B171E06}.Release|x64.Build.0 = Release|x64
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Debug|Win32.Build.0 = Debug|Win32
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Debug|x64.ActiveCfg = Debug|x64
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Debug|x64.Build.0 = Debug|x64
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Release|Win32.ActiveCfg = Release|Win32
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Release|Win32.Build.0 = Release|Win32
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Release|x64.ActiveCfg = Release|x64
+		{24F3401F-F1D6-47B4-83CD-D55A0A966866}.Release|x64.Build.0 = Release|x64
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Debug|Win32.Build.0 = Debug|Win32
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Debug|x64.ActiveCfg = Debug|x64
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Debug|x64.Build.0 = Debug|x64
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Release|Win32.ActiveCfg = Release|Win32
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Release|Win32.Build.0 = Release|Win32
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Release|x64.ActiveCfg = Release|x64
+		{81E2C9D5-9DBF-4973-AF3C-0E8AC557C5B9}.Release|x64.Build.0 = Release|x64
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Debug|Win32.Build.0 = Debug|Win32
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Debug|x64.ActiveCfg = Debug|x64
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Debug|x64.Build.0 = Debug|x64
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Release|Win32.ActiveCfg = Release|Win32
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Release|Win32.Build.0 = Release|Win32
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Release|x64.ActiveCfg = Release|x64
+		{C3BD65CB-AD67-41EA-BD1D-4ED25B26F896}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,4 +4,8 @@
     <LocalDebuggerCommandArguments>4096 Y:/paper/NTUADSC/SPV/experiment/Exp/GraphPatition/result/NY/anode.txt Y:/paper/NTUADSC/SPV/experiment/Exp/GraphPatition/result/NY/aedge.txt Y:/paper/NTUADSC/SPV/experiment/Exp/GraphPatition/result/NY/ 2 10 Y</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>6000 ..\data\fla\fla.co ..\data\fla\d.new.gr ..\result\fla\anode.txt ..\result\fla\aedge.txt ..\result\fla\</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

@@ -76,7 +76,7 @@ int main(int argc, char** argv){
 
 		//newFile << 'a' << iter->first.first << ' ' << iter->first.second
 		//	<< ' ' << iter->second << endl;
-		fprintf_s(fout, "a %d %d %d\n", iter->first.first, iter->first.second, iter->second);
+		fprintf_s(fout, "a %d %d %d\n", iter->first.first, iter->first.second, 1);
 
 		iter++;
 	}
